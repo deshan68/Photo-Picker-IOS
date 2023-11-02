@@ -1,24 +1,20 @@
-//
-//  ContentView.swift
-//  Photo-Picker
-//
-//  Created by arun deshan on 2023-11-02.
-//
 
 import SwiftUI
+import PhotosUI
 
 struct ContentView: View {
+    @State private var images: [UIImage] = []
+    @State private var avatarImage : UIImage?
+    @State private var photosPickerItem: PhotosPickerItem?
+    @State private var photosPickerItems: [PhotosPickerItem] = []
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack{
+            ProfileSelectionView()
+            MultipleSelectionView()
+            Spacer()
         }
-        .padding()
     }
+    
 }
-
-#Preview {
-    ContentView()
-}
+#Preview { ContentView() }

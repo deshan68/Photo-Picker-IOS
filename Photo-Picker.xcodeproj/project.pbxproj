@@ -11,6 +11,8 @@
 		D1D4BCB42AF3899C00C1D167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4BCB32AF3899C00C1D167 /* ContentView.swift */; };
 		D1D4BCB62AF3899F00C1D167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D4BCB52AF3899F00C1D167 /* Assets.xcassets */; };
 		D1D4BCB92AF3899F00C1D167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D4BCB82AF3899F00C1D167 /* Preview Assets.xcassets */; };
+		D1ED91A72AF3D00E00A60081 /* ProfileSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ED91A62AF3D00E00A60081 /* ProfileSelectionView.swift */; };
+		D1ED91A92AF3D25A00A60081 /* MultipleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ED91A82AF3D25A00A60081 /* MultipleSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D1D4BCB32AF3899C00C1D167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1D4BCB52AF3899F00C1D167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1D4BCB82AF3899F00C1D167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1ED91A62AF3D00E00A60081 /* ProfileSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelectionView.swift; sourceTree = "<group>"; };
+		D1ED91A82AF3D25A00A60081 /* MultipleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				D1D4BCB12AF3899C00C1D167 /* Photo_PickerApp.swift */,
 				D1D4BCB32AF3899C00C1D167 /* ContentView.swift */,
+				D1ED91A62AF3D00E00A60081 /* ProfileSelectionView.swift */,
 				D1D4BCB52AF3899F00C1D167 /* Assets.xcassets */,
 				D1D4BCB72AF3899F00C1D167 /* Preview Content */,
+				D1ED91A82AF3D25A00A60081 /* MultipleSelectionView.swift */,
 			);
 			path = "Photo-Picker";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D4BCB42AF3899C00C1D167 /* ContentView.swift in Sources */,
+				D1ED91A72AF3D00E00A60081 /* ProfileSelectionView.swift in Sources */,
 				D1D4BCB22AF3899C00C1D167 /* Photo_PickerApp.swift in Sources */,
+				D1ED91A92AF3D25A00A60081 /* MultipleSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Photo-Picker/Preview Content\"";
+				DEVELOPMENT_TEAM = AQDJRYZK8Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Photo-Picker/Preview Content\"";
+				DEVELOPMENT_TEAM = AQDJRYZK8Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
